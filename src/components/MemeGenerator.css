@@ -1,0 +1,126 @@
+/* Header */
+
+.header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    color: black;
+    background-color: #a997b9;
+    padding: 20px;
+}
+.header img{
+    height: 100%;
+    margin-right: 10px;
+}
+
+.header h3{
+    font-size: 2rem;
+}
+
+/* Form to get Image */
+
+.main{
+    height: 100%;
+    margin-top: 50px;
+}
+.form{
+    text-align: center;
+    
+}
+
+.form--input{
+    padding: 15px;
+    margin-right: 10px;
+    width: 30vw;
+    border: 1px black solid;
+    border-radius: 5px;
+    /* text-indent: 5px; */
+}
+
+.form--button{
+    padding: 15px;
+    margin-top: 25px;
+    width: 50vw;
+    font-size: 1.0rem;
+    font-weight: bolder;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #a997b9;
+    border: none;
+}
+
+/* Image  */
+
+.meme-div{
+    margin-top: 25px ;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.meme-div.hidden {
+    display: none;
+  }
+
+.meme--image {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+  }
+  
+  .meme--image[src] {
+    border: 1px solid #0aede3;
+  }
+  
+  /* Footer */
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #cee5eb;
+    padding: 10px;
+  }
+  
+  .footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer li {
+    margin: 0 10px;
+  }
+
+  .footer li:first-child {
+    margin-left: 0;
+  }
+
+  .footer li:last-child {
+    margin-right: 0;
+  }
+
+  .footer li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .footer li a:hover {
+    color: blue;
+    cursor: pointer;
+    font-weight: 600;
+  }
+
+  .formdata{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .formdata input{
+    margin: 5px
+  }
