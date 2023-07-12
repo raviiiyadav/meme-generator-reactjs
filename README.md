@@ -1,6 +1,4 @@
-# Getting Started with Form ReactJs
+## Getting Started with Meme generator
 
-
-
-## Features
-In this React Web App, we have discussed different types of input in Form, such as normal input, checkbox, radio and button.
+### Features
+In this React Web App, we fetching random images from API call, and then adding text to generate image.
